@@ -12,16 +12,16 @@ const int moveDistance = 8;
 void drawBackground()
 {
   background(); // Must draw on the background layer.
-  setColour(red);
-  int * tile_count = tile_coords("map.txt");
+  setColour(black);
+  int * tile_count = tile_coords();
   for(int i=0;i<tile_count[0];i++){
-    drawLine(0,i*height/tile_count[0],width,(i+1)*width/tile_count[0]);
+    drawLine(0,i*height/tile_count[0],width,i*height/tile_count[0]);
+  }
+  for(int i=0;i<tile_count[1];i++){
+    drawLine(i*width/tile_count[1],0,i*width/tile_count[1],height);
   }
   // An example of drawing a polygon given the coordinates of each
   // corner.
-  int xCoords[] = {150, 450, 150};
-  int yCoords[] = {50, 550, 250};
-  fillPolygon(3, xCoords, yCoords);
 }
 
 // Update the foreground layer to display the square in a new position
@@ -58,7 +58,7 @@ void move()
 
 int main(void)
 {
-  setWindowSize(width, height);
+  setWindowSize(width+1, height+1);
   drawBackground();
   move();
 }

@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <math.h>
 #include "graphics.h"
-int *tile_coords(FILE *path){
+#include <stdlib.h>
+#include <string.h>
+int *tile_coords(){
     int *tile_counts = malloc(2*sizeof(int));
     size_t count = 0;
     char **lines = readFile("map.txt",&count);
@@ -14,9 +16,9 @@ int *tile_coords(FILE *path){
     tile_counts[0] = horizontal_line_count;
     tile_counts[1] = vertical_line_count;
     free_lines(lines);
+    return tile_counts;
 }
 
-dra
 
 
 
