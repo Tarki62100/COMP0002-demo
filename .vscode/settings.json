@@ -1,5 +1,9 @@
 {
     "files.associations": {
-        "FULLRENDER.C": "cpp"
+        "FULLRENDER.C": "cpp",
+        "bitset": "c",
+        "unordered_map": "c",
+        "displayer.h": "c",
+        "graphics.h": "c"
     }
 }

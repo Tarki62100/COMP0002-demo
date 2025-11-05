@@ -37,3 +37,10 @@ Ahmet gundogan yaziliminin calistigini gorur fakat onu halen daha tamamen anlami
 Bu yuzden yazilimin icerisindeki kodu tam olarak anlamak icin tekrardan calismaya koyulur.
 
 Ahmet gundogan emin degil naptigindan ama sorgulamayacak.
+
+[[0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0]]
