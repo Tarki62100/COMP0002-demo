@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char **read_lines_fgets(const char *path, size_t *out_count)
+char **read_lines(const char *path, size_t *out_count)
 {
     FILE *f = fopen(path, "r");
     if (!f) return NULL;
@@ -57,15 +57,5 @@ void free_lines(char **lines)
     free(lines);
 }
 
-int main(void)
-{
-    size_t n;
-    char **lines = read_lines_fgets("map.txt", &n);
-    if (!lines) { perror("read_lines_fgets"); return 1; }
 
-    for (size_t i = 0; i < n; ++i) printf("%s", lines[i]);
-
-    free_lines(lines);
-    return 0;
-}
 

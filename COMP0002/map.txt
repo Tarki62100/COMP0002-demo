@@ -1,1 +1,37 @@
-***
+Ahmet gundogan bir gun
+
+
+gunlerden birinde
+
+
+
+arkadasinin evinde hunharca odevini yapmaya calisiyordur
+
+
+
+Ve dersinin notlarinin dersiyle tam olarak alakali olmadigini fark eder
+
+
+
+
+Bunun uzerine simdilik odevini yapmaya karar verir
+
+
+
+Odevini yapmasi icin ona zaman ayirmasi ve ugrasmasi gerekiyordur
+
+
+Odevinin parcasi olan yazilimi test etmek icin 
+
+
+icinde 1'den fazla bosluklu satirlar
+
+
+
+ve birbirinden farkli @yiyen karakterler iceren bir txt dosyasi olusturur.
+
+
+Ahmet gundogan yaziliminin calistigini gorur fakat onu halen daha tamamen anlamiyordur
+
+
+Bu yuzden yazilimin icerisindeki kodu tam olarak anlamak icin tekrardan calismaya koyulur.
