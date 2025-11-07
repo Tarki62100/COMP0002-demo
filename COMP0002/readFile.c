@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stddef.h>
+#define _CRT_SECURE_NO_WARNINGS
 
 char **readFile(const char *path, size_t *out_count)
 {
